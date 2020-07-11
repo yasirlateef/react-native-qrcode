@@ -1,26 +1,27 @@
 {
-  "name": "react-native-qrcode",
-  "version": "0.2.7",
+  "name": "@yasirlateef/react-native-qrcode",
+  "version": "0.3.0",
   "description": "react-native qrocode generator",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cssivision/react-native-qrcode.git"
+    "url": "https://github.com/yasirlateef/react-native-qrcode.git"
   },
   "keywords": [
     "react-native",
     "qrcode"
   ],
-  "author": "sivision.chen <cssivision@gmail.com>",
+  "author": "yasir.lateef <yasirlateef112@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cssivision/react-native-qrcode/issues"
+    "url": "https://github.com/yasirlateef/react-native-qrcode/issues"
   },
-  "homepage": "https://github.com/cssivision/react-native-qrcode#readme",
+  "homepage": "https://github.com/yasirlateef/react-native-qrcode#readme",
   "dependencies": {
     "create-react-class": "^15.6.0",
     "prop-types": "^15.5.10",
     "qr.js": "0.0.0",
     "react-native-webview": "^10.3.2"
-  }
+	},
+	"publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
